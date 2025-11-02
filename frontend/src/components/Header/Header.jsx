@@ -101,6 +101,12 @@ const Header = () => {
                   <Link to="/contact" onClick={handleMenuToggle}>
                     Contact
                   </Link>
+                  <a href="/JETSET24/budget.html" onClick={handleMenuToggle}>
+                    Budget Planner
+                  </a>
+                  <a href="/Ticket-Booking-System-/index.html" onClick={handleMenuToggle}>
+                    Ticket Booking
+                  </a>
                 </>
               )}
               {role === "admin" && (
@@ -152,6 +158,12 @@ const Header = () => {
             <Link to="/tours">Tours</Link>
             <Link to="/about">Gallery</Link>
             <Link to="/contact">Contact</Link>
+            <li>
+              <a href="/JETSET24/budget.html">Budget Planner</a>
+            </li>
+            <li>
+              <a href="/Ticket-Booking-System-/index.html">Ticket Booking</a>
+            </li>
           </ul>
         )}
 
